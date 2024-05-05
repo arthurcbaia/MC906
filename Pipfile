@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 pandas = "*"
 matplotlib = "*"
+seaborn = "*"
+xgboost = "*"
+lightgbm = {extras = ["scikit-learn"], version = "*"}
+graphviz = "*"
 
 [dev-packages]
 ipykernel = "*"
