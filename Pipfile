@@ -10,10 +10,12 @@ seaborn = "*"
 xgboost = "*"
 lightgbm = {extras = ["scikit-learn"], version = "*"}
 graphviz = "*"
+catboost = "*"
+jinja2 = "*"
 
 [dev-packages]
 ipykernel = "*"
+tensorboard = "*"
 
 [requires]
 python_version = "3.10"
-python_full_version = "3.10.13"
