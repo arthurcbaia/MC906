@@ -12,6 +12,7 @@ lightgbm = {extras = ["scikit-learn"], version = "*"}
 graphviz = "*"
 catboost = "*"
 jinja2 = "*"
+imbalanced-learn = "*"
 
 [dev-packages]
 ipykernel = "*"
