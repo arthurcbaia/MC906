@@ -12,7 +12,9 @@ lightgbm = {extras = ["scikit-learn"], version = "*"}
 graphviz = "*"
 catboost = "*"
 jinja2 = "*"
+umap-learn = "*"
 imbalanced-learn = "*"
+numpy = "==1.26.4"
 
 [dev-packages]
 ipykernel = "*"
